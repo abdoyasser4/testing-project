@@ -70,10 +70,12 @@ button:focus-visible {
   margin: 0px;
   padding: 0px;
 }
+/* navbar */
 body {
   background: url("C:\Users\abdoy\OneDrive\Documents\testing_project\src\imgs\homeimg.jpeg")
     no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 .myNavbar {
   display: flex;
@@ -102,4 +104,34 @@ body {
 .fa-brands,
 .fa-user {
   cursor: pointer;
+}
+/* homepage */
+.container {
+  padding: 50px;
+  text-align: left;
+  width: 700px;
+}
+
+h2 {
+  font-size: 38px;
+  font-family: PT Sans Caption;
+}
+
+p {
+  font-size: 33px;
+  line-height: 1.5;
+  margin: 30px 30px;
+  font-family: PT Sans;
+}
+
+.get-started {
+  background-color: #00b3b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: lowercase;
+  margin: 0px 30px;
 }
