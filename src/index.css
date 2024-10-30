@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,41 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: url("C:\Users\abdoy\OneDrive\Documents\testing_project\src\imgs\homeimg.jpeg")
+    no-repeat;
+  background-size: cover;
+}
+.myNavbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(
+    90deg,
+    #008787 0%,
+    #027c7c 58%,
+    #004a4a 82.5%,
+    #003030 100%
+  );
+  align-items: center;
+  color: #ffff;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+.list li,
+.fa-brands,
+.fa-user {
+  cursor: pointer;
 }
