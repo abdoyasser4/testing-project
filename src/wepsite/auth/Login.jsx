@@ -53,7 +53,7 @@ const Button = styled.button`
 
 const TogglePassword = styled.span`
   position: absolute;
-  right: 20px;
+  right: 40px;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
